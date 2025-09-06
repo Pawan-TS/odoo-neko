@@ -60,6 +60,9 @@
 8. **One-Click Standup:**  
    Each user can submit a quick daily update (what they did, blockers, plans) that’s visible to the team.
 
+9. **Tunnels (AI-Powered Idea Linking):**  
+   Automatically discover and visualize connections between related tasks, discussions, documents, and ideas across the platform. Inspired by Obsidian's linking, but powered by AI (using cosine similarity, embeddings, and other matching techniques), this feature creates "tunnels"—contextual links—between similar or relevant items, helping users navigate knowledge, spot patterns, and surface hidden relationships without manual tagging. Users can explore these tunnels to see how different parts of their work are interconnected, boosting insight and collaboration.
+
 ---
 
 ## Example User Flow
