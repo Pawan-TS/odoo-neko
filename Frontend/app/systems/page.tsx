@@ -24,7 +24,7 @@ export default function SystemsPage() {
   const systems = [
     {
       id: "SYS-001",
-      name: "COMMAND SERVER ALPHA",
+      name: "PRIMARY APPLICATION SERVER",
       type: "Primary Server",
       status: "online",
       health: 98,
@@ -37,7 +37,7 @@ export default function SystemsPage() {
     },
     {
       id: "SYS-002",
-      name: "DATABASE CLUSTER BETA",
+      name: "PROJECT DATABASE CLUSTER",
       type: "Database",
       status: "online",
       health: 95,
@@ -50,7 +50,7 @@ export default function SystemsPage() {
     },
     {
       id: "SYS-003",
-      name: "SECURITY GATEWAY",
+      name: "SECURITY FIREWALL",
       type: "Firewall",
       status: "warning",
       health: 87,
@@ -63,7 +63,7 @@ export default function SystemsPage() {
     },
     {
       id: "SYS-004",
-      name: "COMMUNICATION HUB",
+      name: "NETWORK INFRASTRUCTURE",
       type: "Network",
       status: "online",
       health: 92,
@@ -76,7 +76,7 @@ export default function SystemsPage() {
     },
     {
       id: "SYS-005",
-      name: "BACKUP STORAGE ARRAY",
+      name: "BACKUP STORAGE SYSTEM",
       type: "Storage",
       status: "maintenance",
       health: 76,
@@ -89,7 +89,7 @@ export default function SystemsPage() {
     },
     {
       id: "SYS-006",
-      name: "ANALYTICS ENGINE",
+      name: "DATA ANALYTICS ENGINE",
       type: "Processing",
       status: "online",
       health: 94,
@@ -163,12 +163,12 @@ export default function SystemsPage() {
       {/* Header */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
         <div>
-          <h1 className="text-2xl font-bold text-white tracking-wider">SYSTEMS MONITOR</h1>
-          <p className="text-sm text-neutral-400">Infrastructure health and performance monitoring</p>
+          <h1 className="text-2xl font-bold text-white tracking-wider">SYSTEM SETTINGS</h1>
+          <p className="text-sm text-neutral-400">Platform configuration and system management</p>
         </div>
         <div className="flex gap-2">
-          <Button className="bg-orange-500 hover:bg-orange-600 text-white">System Scan</Button>
-          <Button className="bg-orange-500 hover:bg-orange-600 text-white">Maintenance Mode</Button>
+          <Button className="bg-orange-500 hover:bg-orange-600 text-white">System Health Check</Button>
+          <Button className="bg-orange-500 hover:bg-orange-600 text-white">Maintenance Schedule</Button>
         </div>
       </div>
 
